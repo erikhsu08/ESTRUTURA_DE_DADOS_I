@@ -1,3 +1,7 @@
+/*(1) Crie e compile a classe Carro que possui ano, marca, modelo e categoria com atributos privados (conforme diagrama UML abaixo: - significa private).
+Crie os devidos métodos de acesso (sets e gets) e construtores (padrão e com parâmetros)
+Crie um programa principal (com a função main) em que sejam criados dois Carros a partir de dados fornecidos no código.
+O símbolo de + no diagrama significa que o método deve ser public (público). */
 class Carro{
   private int ano;
   private String marca;
