@@ -1,4 +1,4 @@
-public class Carro{
+class Carro{
   private int ano;
   private String marca;
   private String modelo;
@@ -46,12 +46,14 @@ public class Carro{
     this.modelo = modelo;
     this.categoria = categoria;
   }
+}
 
-
+class Main{
   public static void main(String[] args){
     Carro carroA = new Carro();
     carroA.show();
+    System.out.print("\n");
     Carro carroB = new Carro(2001, "chevrolet", "onix", "g2");
     carroB.show();
   }
-  
+}
