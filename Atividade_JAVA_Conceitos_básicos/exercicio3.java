@@ -1,3 +1,6 @@
+//NOME: Mateus Kenzo Iochimoto TIA: 32216289
+//
+
 import java.util.Scanner;
 public class E {
 	static float fatorial(int n) {
