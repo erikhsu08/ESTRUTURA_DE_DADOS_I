@@ -3,7 +3,7 @@
 
 import java.util.Scanner;
 
-class Ex1 {
+class exercicio1 {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     
