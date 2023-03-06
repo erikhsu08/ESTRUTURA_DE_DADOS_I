@@ -1,5 +1,6 @@
-//NOME: Rodrigo Machado de Assis Oliveira de Lima
-//TIA: 32234678
+//NOME: Mateus Kenzo Iochimoto TIA: 32216289
+//NOME: Rodrigo Machado de Assis Oliveira de Lima TIA: 32234678
+
 
 import java.util.Scanner;
 
