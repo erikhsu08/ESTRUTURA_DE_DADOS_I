@@ -11,10 +11,10 @@ class Carro{
   private String categoria;
 
   public void show(){
-    System.out.print(ano);
-    System.out.print(marca);
-    System.out.print(modelo);
-    System.out.print(categoria);
+    System.out.print(ano+"\t");
+    System.out.print(marca+"\t");
+    System.out.print(modelo+"\t");
+    System.out.print(categoria+"\t");
   }
   public int getAno(){
     return ano;
