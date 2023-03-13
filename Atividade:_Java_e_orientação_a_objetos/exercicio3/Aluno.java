@@ -1,3 +1,5 @@
+//Mateus Kenzo Iochimoto TIA: 32216289
+//Rodrigo Machado de Assis Oliveira de Lima TIA: 32234678
 /*⦁	Seja a Classe Aluno com os atributos privados: rgm, nome, sexo, notaA, notaB, notaC e nota D (como apresentado no diagrama UML abaixo).
 ⦁	Os quatro últimos atributos representam as notas do aluno em quatro disciplinas. 
 ⦁	Programe os três métodos construtores, conforme modelo UML. 
