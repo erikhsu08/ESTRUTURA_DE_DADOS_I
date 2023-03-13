@@ -1,3 +1,5 @@
+//Mateus Kenzo Iochimoto TIA: 32216289
+//Rodrigo Machado de Assis Oliveira de Lima TIA: 32234678
 /*(2) 2.	Elaborar uma classe Circulo, com um atributo raio e métodos que permitam: instanciar objetos desta classe, 
 métodos get/set adequados para manipular o atributo raio (Faça pré-condição: raio > 0), métodos para calcular o diâmetro e a área do círculo 
 e um método para visualizar todos os dados de um círculo. 
