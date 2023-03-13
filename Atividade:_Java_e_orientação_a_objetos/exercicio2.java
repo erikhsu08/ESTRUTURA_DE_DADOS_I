@@ -18,12 +18,9 @@ class Circulo{
   }
 
   public void mostraDados(){
-    System.out.print(raio);
-    System.out.print("\n");
-    System.out.print(calculaDiametro(raio));
-    System.out.print("\n");
-    System.out.print(calculaArea(raio));
-    System.out.print("\n");
+    System.out.print("raio = "+raio+"\t");
+    System.out.print("diamentro = "+calculaDiametro(raio)+"\t");
+    System.out.print("area = "+calculaArea(raio)+"\t");
   }
   
   public float getRaio(){
@@ -44,6 +41,7 @@ class Main{
   public static void main(String[] args){
     Circulo circuloA = new Circulo(4);
     circuloA.mostraDados();
+    System.out.print("\n");
     circuloA.setRaio(-1);
   }
 }
