@@ -1,11 +1,11 @@
 public class Pilha{
   private static int TAM_DEFAULT = 100;
   private int topoPilha;
-  private int e[];
+  private char e[];
   
   //CONSTRUTOR COM PARÂMETRO
   public Pilha(int tamanho){
-    this.e = new int [tamanho];
+    this.e = new char [tamanho];
     this.topoPilha = -1; 
   }
   //CONSTRUTOR VAZIO
@@ -30,7 +30,7 @@ public class Pilha{
   }
   
   //INSERE UM ELEMENTO NO TOPO DA PILHA
-  public void push(int e){
+  public void push(char e){
     if (!this.isFull())
       this.e[++this.topoPilha] = e;
     else
@@ -38,22 +38,22 @@ public class Pilha{
   }  
 
   //REMOVE O ELEMENTO DO TOPO DA PILHA
-  public int pop(){
+  public char pop(){
     if (!this.isEmpty())
       return this.e[this.topoPilha--];
     else{
       System.out.println("Stack Underflow");
-      return -1;
+      return 'n';
     }
   }
 
   //OBTÉM O ELEMENTO DO TOPO DA PILHA
-  public int top(){
+  public char top(){
     if (! this.isEmpty())
       return this.e[this.topoPilha];
     else{
       System.out.println("Stack Underflow");
-      return -1;
+      return 'n';
     }
   }
 
