@@ -1,3 +1,5 @@
+//Mateus Kenzo Iochimoto TIA: 32216289
+//Rodrigo Machado de Assis Oliveira de Lima TIA: 32234678
 /*(1) Crie e compile a classe Carro que possui ano, marca, modelo e categoria com atributos privados (conforme diagrama UML abaixo: - significa private).
 Crie os devidos métodos de acesso (sets e gets) e construtores (padrão e com parâmetros)
 Crie um programa principal (com a função main) em que sejam criados dois Carros a partir de dados fornecidos no código.
