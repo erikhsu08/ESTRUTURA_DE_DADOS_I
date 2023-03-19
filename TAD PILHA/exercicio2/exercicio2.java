@@ -1,3 +1,7 @@
+//Mateus Kenzo Iochimoto TIA: 32216289
+//Rodrigo Machado de Assis Oliveira de Lima TIA: 32234678
+/*2.	Altere o programa anterior para verificar se uma data informada pelo usuário usando o formato DD/MM/YYYY é uma data palíndroma.*/
+
 import java.util.Scanner;
 
 class Main {
