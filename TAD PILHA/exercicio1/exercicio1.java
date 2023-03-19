@@ -1,3 +1,8 @@
+//Mateus Kenzo Iochimoto TIA: 32216289
+//Rodrigo Machado de Assis Oliveira de Lima TIA: 32234678
+/*1.	Escreva um programa que leia uma string e indique se o texto informado é ou não é um palíndromo. 
+Seu programa deve usar uma pilha para auxiliar na verificação do palíndromo.*/
+
 class Main {
   public static void main(String[] args) {
     //palavra a ser verificada
