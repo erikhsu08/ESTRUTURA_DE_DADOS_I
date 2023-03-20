@@ -1,11 +1,11 @@
-public class Pilha{
+public class Pilha<T>{
   private static int TAM_DEFAULT = 100;
   private int topoPilha;
-  private char e[];
-  
+  private T[] e;
+
   //CONSTRUTOR COM PARÂMETRO
   public Pilha(int tamanho){
-    this.e = new char [tamanho];
+    this.e = (T[]) new Object[tamanho];
     this.topoPilha = -1; 
   }
   //CONSTRUTOR VAZIO
@@ -15,45 +15,39 @@ public class Pilha{
   
   //VERIFICA SE A PILHA ESTÁ VAZIA
   public boolean isEmpty(){
-    if (this.topoPilha == -1)
-      return true;
-    else
-      return false;
+    return this.topoPilha == -1;
   }
   
   //VERIFICA SE A PILHA ESTÁ CHEIA
   public boolean isFull(){
-    if (this.topoPilha == this.e.length-1)
-      return true;
-    else
-      return false;
+    return this.topoPilha == this.e.length - 1;
   }
   
   //INSERE UM ELEMENTO NO TOPO DA PILHA
-  public void push(char e){
+  public void push(T elem){
     if (!this.isFull())
-      this.e[++this.topoPilha] = e;
+      this.e[++this.topoPilha] = elem;
     else
       System.out.println("Stack Overflow");
   }  
 
   //REMOVE O ELEMENTO DO TOPO DA PILHA
-  public char pop(){
+  public T pop(){
     if (!this.isEmpty())
       return this.e[this.topoPilha--];
     else{
       System.out.println("Stack Underflow");
-      return 'n';
+      return null;
     }
   }
 
   //OBTÉM O ELEMENTO DO TOPO DA PILHA
-  public char top(){
+  public T top(){
     if (! this.isEmpty())
       return this.e[this.topoPilha];
     else{
       System.out.println("Stack Underflow");
-      return 'n';
+      return null;
     }
   }
 
