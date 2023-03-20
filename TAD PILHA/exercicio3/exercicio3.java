@@ -1,3 +1,9 @@
+//Mateus Kenzo Iochimoto TIA: 32216289
+//Rodrigo Machado de Assis Oliveira de Lima TIA: 32234678
+//3.	Escreva um programa que usa pilha para verificar e informar se uma expressão (string) possui a correspondência e ordem correta dos 
+//símbolos (), [], {} e <>. A expressão deve ser informada pelo usuário.
+
+
 package exercicio3;
 
 import java.util.*;
