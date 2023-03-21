@@ -34,7 +34,7 @@ public class Main {
 				return false;
 			if(Character.isLetter(exp.charAt(i)))
 					contVariavel++;
-			if (Character.isLetter(exp.charAt(i)) && Character.isLetter(exp.charAt(i+1)) )
+			if (i !=0 && Character.isLetter(exp.charAt(i)) && Character.isLetter(exp.charAt(i-1)) )
 				return false;
 			if(Character.isLetter(exp.charAt(i)) == false && exp.charAt(i) != '(' && exp.charAt(i)!= ')') {
 				int valido = 0;
