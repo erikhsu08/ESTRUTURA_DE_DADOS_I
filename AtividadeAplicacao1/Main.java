@@ -47,7 +47,7 @@ public class Main{
 						valido = 1;
 				}
 			if (valido == 0) {
-				System.out.print("Operação ou operador não reconhecida(o), expressão inválida.");
+				System.out.print("Operando ou operador não reconhecido, expressão inválida.");
 				return false;
 			}
 			}
