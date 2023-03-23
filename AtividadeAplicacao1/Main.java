@@ -31,13 +31,15 @@ public class Main{
 			if (exp.charAt(i) == ')')
 				contFecha++;
 			if (contFecha > contAbre) {
-				System.out.print("Parenteses incorretos, expressao invalida.");
+				System.out.print("Parenteses incorretos, expressão inválida.");
 				return false;
 			}
 			if(Character.isLetter(exp.charAt(i)))
 					contVariavel++;
-			if (i!= exp.length()-1 && Character.isLetter(exp.charAt(i)) && Character.isLetter(exp.charAt(i+1)) )
+			if (i!= exp.length()-1 && Character.isLetter(exp.charAt(i)) && Character.isLetter(exp.charAt(i+1))) {
+				System.out.print("Apenas variáveis de 1 são letra aceitas, expressão inválida.");
 				return false;
+			}
 			if(Character.isLetter(exp.charAt(i)) == false && exp.charAt(i) != '(' && exp.charAt(i)!= ')') {
 				int valido = 0;
 				for (int j=0; j < 5;j++) {
@@ -45,20 +47,20 @@ public class Main{
 						valido = 1;
 				}
 			if (valido == 0) {
-				System.out.print("Operacao nao reconhecida, expressao invalida.");
+				System.out.print("Operação ou operador não reconhecida(o), expressão inválida.");
 				return false;
 			}
 			}
 		}
 		if (contVariavel == 0) {
-			System.out.print("Nenhuma variavel detectada, expressao invalida.");
+			System.out.print("Nenhuma variável detectada, expressão inválida.");
 			return false;
 		}
 		if (contAbre != contFecha) {
-			System.out.print("Parenteses incorretos, expressao invalida.");
+			System.out.print("Parenteses incorretos, expressão inválida.");
 			return false;
 		}
-		System.out.print("expressao valida ");
+		System.out.print("Expressão válida.");
 		return true;
 	}
 }
