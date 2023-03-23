@@ -31,7 +31,7 @@ public class Main{
 			if (exp.charAt(i) == ')')
 				contFecha++;
 			if (contFecha > contAbre) {
-				System.out.print("Parenteses incorretos, expressão inválida.");
+				System.out.print("Parênteses incorretos, expressão inválida.");
 				return false;
 			}
 			if(Character.isLetter(exp.charAt(i)))
@@ -57,7 +57,7 @@ public class Main{
 			return false;
 		}
 		if (contAbre != contFecha) {
-			System.out.print("Parenteses incorretos, expressão inválida.");
+			System.out.print("Parênteses incorretos, expressão inválida.");
 			return false;
 		}
 		System.out.print("Expressão válida.");
